@@ -56,7 +56,7 @@ logback 数据加密库
      
      <appender name="xxxx" class="ch.qos.logback.core.rolling.RollingFileAppender">
          <encoder class = "ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-             <layout class = "ch.qos.logback.classic.PatternLayout">
+             <layout class = "com.lico.logback.crypt.encrypt.EncryptPatternLayout">
                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}|%m%n</pattern>
              </layout>
      </appender>
